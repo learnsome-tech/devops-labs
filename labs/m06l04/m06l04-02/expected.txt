@@ -1,0 +1,6 @@
+sections required   16
+sections missing    none
+action items        4
+classified items    4
+blaming language    none found
+verdict             ready for review

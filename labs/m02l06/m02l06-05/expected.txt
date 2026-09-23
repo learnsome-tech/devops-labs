@@ -1,0 +1,14 @@
+factor                     bad    good
+I   Codebase               FAIL   PASS
+II  Dependencies           FAIL   PASS
+III Config                 FAIL   PASS
+IV  Backing services       FAIL   PASS
+V   Build, release, run    FAIL   PASS
+VI  Processes              FAIL   PASS
+VII Port binding           FAIL   PASS
+VIIIConcurrency            FAIL   PASS
+IX  Disposability          FAIL   PASS
+X   Dev prod parity        FAIL   PASS
+XI  Logs                   FAIL   PASS
+XII Admin processes        FAIL   PASS
+totals                     0/12   12/12

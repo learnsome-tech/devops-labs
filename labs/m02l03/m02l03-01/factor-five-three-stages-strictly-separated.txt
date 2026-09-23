@@ -1,0 +1,3 @@
+build      code plus dependencies becomes one immutable artifact
+release    that artifact plus this deploy's config, with a release id
+run        processes started against a chosen release, nothing else

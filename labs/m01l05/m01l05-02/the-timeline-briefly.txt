@@ -1,0 +1,7 @@
+year   what changed in DORA's metric set
+2014   four variables studied; change fail rate did not correlate
+2015   throughput and stability: frequency, lead time, MTTR, fail rate
+2018   'IT performance' becomes software delivery and operational performance
+2021   availability widened to reliability; later called a fifth metric in error
+2023   MTTR retired; failed deployment recovery time defined in its place
+2024   deployment rework rate added; the set becomes five metrics

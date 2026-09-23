@@ -1,0 +1,4 @@
+one-off process, same code, same config, own life cycle
+   {"database": "sqlite:///quotes", "event": "migrate", "release": "2026.09.11-a1b2c3"}
+   schema at revision two
+bad runs the migration at import time: True

@@ -1,0 +1,5 @@
+fixture repository ready at fixture
+      10
+2026-02-13 document the runbook
+2026-02-13 drop the unused column
+2026-02-12 log the release identifier

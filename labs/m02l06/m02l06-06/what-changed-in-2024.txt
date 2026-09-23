@@ -1,0 +1,5 @@
+2011  published by Adam Wiggins at Heroku
+2024  open sourced under a Creative Commons licence, work moves to a repo
+      proposal: identity, a short lived workload identity for backing services
+      proposal: widen logs into telemetry, following OpenTelemetry practice
+      stated intention: keep the number of factors at twelve

@@ -1,0 +1,5 @@
+hour        mean    p50     p90     p95     p99
+morning     50.5    50      50      50      60
+afternoon   50.5    48      48      48      98
+
+the mean says nothing changed; one request in twenty got twice as slow

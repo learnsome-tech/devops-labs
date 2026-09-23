@@ -1,0 +1,3 @@
+release  2.4.0-staging
+config   from the environment, not from the artifact
+deployed staging

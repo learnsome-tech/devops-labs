@@ -1,0 +1,4 @@
+bad on stdout    ''
+bad wrote        quotes.log, which it now has to rotate
+good on stdout   {"event": "request", "hits": 1, "path": "/quotes/1", "release": "2026.09.11-a1b2c3"}
+good wrote       nothing: routing is the platform's problem

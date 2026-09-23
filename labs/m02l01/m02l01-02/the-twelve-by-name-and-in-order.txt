@@ -1,0 +1,12 @@
+I    Codebase            one codebase in revision control, many deploys
+II   Dependencies        explicitly declare and isolate dependencies
+III  Config              store config in the environment
+IV   Backing services    treat backing services as attached resources
+V    Build, release, run strictly separate build and run stages
+VI   Processes           execute the app as one or more stateless processes
+VII  Port binding        export services via port binding
+VIII Concurrency         scale out via the process model
+IX   Disposability       fast startup and graceful shutdown
+X    Dev/prod parity     keep development, staging and production similar
+XI   Logs                treat logs as event streams
+XII  Admin processes     run admin tasks as one-off processes

@@ -1,0 +1,3 @@
+bad   exit -15  was killed by the signal
+good  exit 0    handled the signal
+      logged {"event": "shutdown", "release": "2026.09.11-a1b2c3", "signal": 15}

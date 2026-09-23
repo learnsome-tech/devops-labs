@@ -1,0 +1,15 @@
+fixture repository ready at fixture
+honest, deployments tagged when they reached production
+  deployments                     10 over 11.2 days
+  change lead time                4.0 hours (median)
+  deployment frequency            6.2 per week
+  failed deployment recovery time 556 minutes (median)
+  change fail rate                20 percent
+  deployment rework rate          20 percent
+gamed, every commit relabelled a deployment
+  deployments                     14 over 12.2 days
+  change lead time                0.0 hours (median)
+  deployment frequency            8.0 per week
+  failed deployment recovery time no failed deployments in this window
+  change fail rate                0 percent
+  deployment rework rate          14 percent

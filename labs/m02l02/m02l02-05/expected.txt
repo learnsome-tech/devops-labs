@@ -1,0 +1,4 @@
+bad, from the source file    quotes.db shhh-do-not-tell
+good, from the environment   sqlite:///quotes from-the-environment
+good, second deploy          postgres://quotes/prod 2026.09.12-ff0011
+same build, different config, and no credential in the repository

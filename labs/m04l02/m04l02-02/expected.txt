@@ -1,0 +1,8 @@
+step  old  new  serving  capacity
+1     8    2    10       100 percent
+2     6    4    10       100 percent
+3     4    6    10       100 percent
+4     2    8    10       100 percent
+5     0    10   10       100 percent
+
+both versions serve traffic at once, so the schema must accept both

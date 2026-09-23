@@ -1,0 +1,2 @@
+short     0 commits behind trunk   merge clean     conflicted files 0
+long      9 commits behind trunk   merge conflict  conflicted files 1

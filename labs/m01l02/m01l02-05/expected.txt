@@ -1,0 +1,7 @@
+fixture repository ready at fixture
+deployments                     10 over 11.2 days
+change lead time                4.0 hours (median)
+deployment frequency            6.2 per week
+failed deployment recovery time 556 minutes (median)
+change fail rate                20 percent
+deployment rework rate          20 percent

@@ -1,0 +1,3 @@
+time gap       hours between writing a change and running it, not weeks
+personnel gap  the people who wrote it deploy it and watch it
+tools gap      the same backing services, same type, same version

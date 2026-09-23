@@ -1,0 +1,7 @@
+objective                 99.9 percent over 30 days
+error budget              2,000 failed requests
+budget spent              1,430 requests, 71.5 percent
+window elapsed            33.3 percent
+burn rate                 2.14 times the sustainable rate
+budget exhausted in       4.0 days
+verdict                   freeze and fix

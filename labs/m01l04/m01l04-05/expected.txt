@@ -1,0 +1,4 @@
+fixture repository ready at fixture
+deploy-0007  2026-02-10 16:00:00 +0000
+deploy-0008  2026-02-11 09:20:00 +0000
+failed deployment recovery time 556 minutes (median)

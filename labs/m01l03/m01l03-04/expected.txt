@@ -1,0 +1,6 @@
+fixture repository ready at fixture
+put the old credential back
+restore the old search index
+failed deployment recovery time 556 minutes (median)
+change fail rate                20 percent
+deployment rework rate          20 percent

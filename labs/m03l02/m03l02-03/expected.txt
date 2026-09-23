@@ -1,0 +1,4 @@
+merge rename   clean, no conflict
+merge caller   clean, no conflict
+build    red: cannot import apply_discount from app.calc
+verdict  git merged the text; only the build noticed the meaning

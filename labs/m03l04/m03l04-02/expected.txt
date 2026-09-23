@@ -1,0 +1,4 @@
+unit            4 tests   passed
+integration     1 tests   passed
+e2e             1 tests   passed
+total           6 tests   green
