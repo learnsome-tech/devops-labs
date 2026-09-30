@@ -1,19 +1,22 @@
-# Deployment Strategies: Canary Releases
+# m04l04 · Deployment Strategies: Canary Releases
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Continuous Delivery and Deployment  
-**Lesson**: `m04l04`
+Module 4: Continuous Delivery and Deployment · lesson 4.4 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m04l04)
 
-## Links
+**Goal:** You can use a canary gate to limit blast radius and decide whether to promote or roll back from observed evidence.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m04l04)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-4-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l04-02](m04l04-02/) | The gate aborts at twenty five percent | Graded |
 
-- [`m04l04-02/`](m04l04-02/)
+## Check yourself
+
+- What makes a canary different from a full rollout?
+- Why does it need a baseline?
+- What caused the fixture to abort?
+- Which design questions should be answered first?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

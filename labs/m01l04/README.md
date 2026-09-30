@@ -1,21 +1,25 @@
-# Restoration: Failed Deployment Recovery Time
+# m01l04 · Restoration: Failed Deployment Recovery Time
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Measurement And Outcomes: DORA  
-**Lesson**: `m01l04`
+Module 1: Measurement And Outcomes: DORA · lesson 1.4 · Free · [Open the lesson](https://learnsome.tech/learn/devops-course/m01l04)
 
-## Links
+**Goal:** You can define failed deployment recovery time exactly, say which failures it covers and which it does not, and compute it from the deployment record.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m01l04)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-1-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l04-02](m01l04-02/) | The incident, as the repository saw it | Read along |
+| [m01l04-04](m01l04-04/) | Recovery, as arithmetic over the record | Read along |
+| [m01l04-05](m01l04-05/) | One recovery, from end to end | Graded |
 
-- [`m01l04-02/`](m01l04-02/)
-- [`m01l04-04/`](m01l04-04/)
-- [`m01l04-05/`](m01l04-05/)
+## Check yourself
+
+- When does the recovery clock start, and when does it stop?
+- Why is a data centre power failure outside this metric?
+- Why is recovery time grouped with throughput rather than instability?
+- What does a median of two recoveries hide, and what should you report beside it?
+- Name three practices that make recovery time smaller.
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

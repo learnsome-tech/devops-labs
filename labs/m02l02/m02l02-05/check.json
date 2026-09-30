@@ -1,0 +1,210 @@
+{
+  "lab": "m02l02-05",
+  "lesson": "m02l02",
+  "title": "One build, two deploys",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash shell-one-build-two-deploys.sh",
+  "main": "shell-one-build-two-deploys.sh",
+  "files": [
+    "shell-one-build-two-deploys.sh"
+  ],
+  "shared": [
+    {
+      "path": "ci/VERSION",
+      "from": "shared/lab/ci/VERSION"
+    },
+    {
+      "path": "ci/app/__init__.py",
+      "from": "shared/lab/ci/app/__init__.py"
+    },
+    {
+      "path": "ci/app/calc.py",
+      "from": "shared/lab/ci/app/calc.py"
+    },
+    {
+      "path": "ci/broken.yml",
+      "from": "shared/lab/ci/broken.yml"
+    },
+    {
+      "path": "ci/build.sh",
+      "from": "shared/lab/ci/build.sh"
+    },
+    {
+      "path": "ci/deploy.sh",
+      "from": "shared/lab/ci/deploy.sh"
+    },
+    {
+      "path": "ci/pipeline.sh",
+      "from": "shared/lab/ci/pipeline.sh"
+    },
+    {
+      "path": "ci/pipeline.yml",
+      "from": "shared/lab/ci/pipeline.yml"
+    },
+    {
+      "path": "ci/run_tests.py",
+      "from": "shared/lab/ci/run_tests.py"
+    },
+    {
+      "path": "ci/tests/__init__.py",
+      "from": "shared/lab/ci/tests/__init__.py"
+    },
+    {
+      "path": "ci/tests/e2e/__init__.py",
+      "from": "shared/lab/ci/tests/e2e/__init__.py"
+    },
+    {
+      "path": "ci/tests/e2e/test_journey.py",
+      "from": "shared/lab/ci/tests/e2e/test_journey.py"
+    },
+    {
+      "path": "ci/tests/integration/__init__.py",
+      "from": "shared/lab/ci/tests/integration/__init__.py"
+    },
+    {
+      "path": "ci/tests/integration/test_orders.py",
+      "from": "shared/lab/ci/tests/integration/test_orders.py"
+    },
+    {
+      "path": "ci/tests/unit/__init__.py",
+      "from": "shared/lab/ci/tests/unit/__init__.py"
+    },
+    {
+      "path": "ci/tests/unit/test_calc.py",
+      "from": "shared/lab/ci/tests/unit/test_calc.py"
+    },
+    {
+      "path": "ci/validate-workflow.ts",
+      "from": "shared/lab/ci/validate-workflow.ts"
+    },
+    {
+      "path": "ci/version.sh",
+      "from": "shared/lab/ci/version.sh"
+    },
+    {
+      "path": "dora/deploy_times.sh",
+      "from": "shared/lab/dora/deploy_times.sh"
+    },
+    {
+      "path": "dora/dora_metrics.py",
+      "from": "shared/lab/dora/dora_metrics.py"
+    },
+    {
+      "path": "dora/gaming.sh",
+      "from": "shared/lab/dora/gaming.sh"
+    },
+    {
+      "path": "dora/make-fixture-repo.sh",
+      "from": "shared/lab/dora/make-fixture-repo.sh"
+    },
+    {
+      "path": "git/distance.sh",
+      "from": "shared/lab/git/distance.sh"
+    },
+    {
+      "path": "git/semantic_conflict.sh",
+      "from": "shared/lab/git/semantic_conflict.sh"
+    },
+    {
+      "path": "incident/lint_postmortem.py",
+      "from": "shared/lab/incident/lint_postmortem.py"
+    },
+    {
+      "path": "incident/postmortem.md",
+      "from": "shared/lab/incident/postmortem.md"
+    },
+    {
+      "path": "incident/timeline.py",
+      "from": "shared/lab/incident/timeline.py"
+    },
+    {
+      "path": "platform/golden_path.sh",
+      "from": "shared/lab/platform/golden_path.sh"
+    },
+    {
+      "path": "platform/toil.py",
+      "from": "shared/lab/platform/toil.py"
+    },
+    {
+      "path": "release/bluegreen.py",
+      "from": "shared/lab/release/bluegreen.py"
+    },
+    {
+      "path": "release/canary.py",
+      "from": "shared/lab/release/canary.py"
+    },
+    {
+      "path": "release/feature_flag.py",
+      "from": "shared/lab/release/feature_flag.py"
+    },
+    {
+      "path": "release/rolling.py",
+      "from": "shared/lab/release/rolling.py"
+    },
+    {
+      "path": "sdlc/littles_law.py",
+      "from": "shared/lab/sdlc/littles_law.py"
+    },
+    {
+      "path": "sdlc/value_stream.py",
+      "from": "shared/lab/sdlc/value_stream.py"
+    },
+    {
+      "path": "slo/error_budget.py",
+      "from": "shared/lab/slo/error_budget.py"
+    },
+    {
+      "path": "slo/percentiles.py",
+      "from": "shared/lab/slo/percentiles.py"
+    },
+    {
+      "path": "twelve-factor/audit.py",
+      "from": "shared/lab/twelve-factor/audit.py"
+    },
+    {
+      "path": "twelve-factor/bad/app.py",
+      "from": "shared/lab/twelve-factor/bad/app.py"
+    },
+    {
+      "path": "twelve-factor/bad/config_dev.py",
+      "from": "shared/lab/twelve-factor/bad/config_dev.py"
+    },
+    {
+      "path": "twelve-factor/bad/config_prod.py",
+      "from": "shared/lab/twelve-factor/bad/config_prod.py"
+    },
+    {
+      "path": "twelve-factor/demos.py",
+      "from": "shared/lab/twelve-factor/demos.py"
+    },
+    {
+      "path": "twelve-factor/good/Procfile",
+      "from": "shared/lab/twelve-factor/good/Procfile"
+    },
+    {
+      "path": "twelve-factor/good/app.py",
+      "from": "shared/lab/twelve-factor/good/app.py"
+    },
+    {
+      "path": "twelve-factor/good/manage.py",
+      "from": "shared/lab/twelve-factor/good/manage.py"
+    },
+    {
+      "path": "twelve-factor/good/requirements.txt",
+      "from": "shared/lab/twelve-factor/good/requirements.txt"
+    },
+    {
+      "path": "twelve-factor/probe.py",
+      "from": "shared/lab/twelve-factor/probe.py"
+    }
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

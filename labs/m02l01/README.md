@@ -1,21 +1,25 @@
-# Codebase And Dependencies
+# m02l01 · Codebase And Dependencies
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: The Twelve-Factor App  
-**Lesson**: `m02l01`
+Module 2: The Twelve-Factor App · lesson 2.1 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m02l01)
 
-## Links
+**Goal:** You can state the first two factors in the manifesto's own words, tell a codebase from a deploy, and explain why declaration without isolation is not enough.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m02l01)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-2-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m02l01-02](m02l01-02/) | The twelve, by name and in order | Read along |
+| [m02l01-03](m02l01-03/) | A sample app that fails every factor | Graded |
+| [m02l01-05](m02l01-05/) | What breaking factor one looks like | Read along |
 
-- [`m02l01-02/`](m02l01-02/)
-- [`m02l01-03/`](m02l01-03/)
-- [`m02l01-05/`](m02l01-05/)
+## Check yourself
+
+- What is the difference between a codebase and a deploy?
+- Two applications share a large module. What does factor one require?
+- Why is declaring dependencies without isolating them insufficient?
+- Why is a container image not a complete answer to factor two?
+- What does a file named settings production suggest about a repository?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

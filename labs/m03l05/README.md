@@ -1,20 +1,23 @@
-# Building And Versioning The Artifact
+# m03l05 · Building And Versioning The Artifact
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Collaboration and Continuous Integration  
-**Lesson**: `m03l05`
+Module 3: Collaboration and Continuous Integration · lesson 3.5 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m03l05)
 
-## Links
+**Goal:** You can build one identifiable artifact and explain how version information follows it through promotion.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m03l05)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-3-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l05-02](m03l05-02/) | Build an immutable artifact | Graded |
+| [m03l05-03](m03l05-03/) | Environment configuration arrives at deploy time | Graded |
 
-- [`m03l05-02/`](m03l05-02/)
-- [`m03l05-03/`](m03l05-03/)
+## Check yourself
+
+- Why should an artifact be built only once?
+- What does a digest add to a version number?
+- Where should environment configuration enter?
+- Which deployment parts cannot be verified locally?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

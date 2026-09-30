@@ -1,0 +1,17 @@
+{
+  "lab": "m02l01-02",
+  "lesson": "m02l01",
+  "title": "The twelve, by name and in order",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "the-twelve-by-name-and-in-order.txt",
+  "files": [
+    "the-twelve-by-name-and-in-order.txt"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

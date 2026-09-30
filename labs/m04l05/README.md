@@ -1,19 +1,22 @@
-# Decoupling Release From Deployment: Feature Flags
+# m04l05 · Decoupling Release From Deployment: Feature Flags
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Continuous Delivery and Deployment  
-**Lesson**: `m04l05`
+Module 4: Continuous Delivery and Deployment · lesson 4.5 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m04l05)
 
-## Links
+**Goal:** You can use a feature flag for a measured rollout and explain the operational duties that come with flag driven release.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m04l05)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-4-5)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l05-02](m04l05-02/) | A deterministic percentage rollout | Graded |
 
-- [`m04l05-02/`](m04l05-02/)
+## Check yourself
+
+- How does a flag separate deployment from release?
+- Why must percentage rollout be deterministic?
+- What information should every temporary flag carry?
+- Why should stale flags be removed?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

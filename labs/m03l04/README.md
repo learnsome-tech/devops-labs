@@ -1,19 +1,22 @@
-# Testing Strategies And The Test Pyramid
+# m03l04 · Testing Strategies And The Test Pyramid
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Collaboration and Continuous Integration  
-**Lesson**: `m03l04`
+Module 3: Collaboration and Continuous Integration · lesson 3.4 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m03l04)
 
-## Links
+**Goal:** You can distinguish test layers and choose a balanced suite that gives fast feedback without abandoning realistic checks.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m03l04)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-3-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l04-02](m03l04-02/) | Run the three layers | Graded |
 
-- [`m03l04-02/`](m03l04-02/)
+## Check yourself
+
+- What question does each test layer answer?
+- Why are end to end tests usually fewer?
+- How should incidents influence the suite?
+- Why is the pyramid a guide rather than a fixed ratio?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

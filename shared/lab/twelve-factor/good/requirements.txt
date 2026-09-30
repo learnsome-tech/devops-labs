@@ -1,0 +1,3 @@
+# II  dependencies declared exactly, never assumed from the host
+quotes-service==2.4.0
+ujson==5.10.0

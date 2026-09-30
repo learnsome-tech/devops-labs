@@ -1,19 +1,22 @@
-# Deployment Strategies: Blue Green
+# m04l03 · Deployment Strategies: Blue Green
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Continuous Delivery and Deployment  
-**Lesson**: `m04l03`
+Module 4: Continuous Delivery and Deployment · lesson 4.3 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m04l03)
 
-## Links
+**Goal:** You can describe blue green deployment and weigh its fast rollback against the cost of a second production sized environment.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m04l03)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-4-3)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m04l03-02](m04l03-02/) | Switch the router, keep rollback ready | Graded |
 
-- [`m04l03-02/`](m04l03-02/)
+## Check yourself
+
+- What does blue green deployment keep ready?
+- Why is rollback quick in the example?
+- What is the main capacity cost?
+- Which shared dependencies still need planning?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

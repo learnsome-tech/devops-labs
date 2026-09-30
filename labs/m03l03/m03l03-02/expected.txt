@@ -1,4 +1,0 @@
-workflow  pipeline.yml
-jobs      3 (test, build, deploy)
-steps     7
-verdict   valid

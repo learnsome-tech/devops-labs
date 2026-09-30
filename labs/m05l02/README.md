@@ -1,19 +1,22 @@
-# Percentiles Rather Than Averages
+# m05l02 · Percentiles Rather Than Averages
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Service Level Objectives (SRE)  
-**Lesson**: `m05l02`
+Module 5: Service Level Objectives (SRE) · lesson 5.2 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m05l02)
 
-## Links
+**Goal:** You can read latency percentiles and explain why an average can hide a slow tail.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m05l02)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-5-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m05l02-02](m05l02-02/) | The mean hides the afternoon tail | Graded |
 
-- [`m05l02-02/`](m05l02-02/)
+## Check yourself
+
+- What does a percentile describe?
+- Why did the example mean fail to show the regression?
+- Why are high percentiles unstable in small samples?
+- When is an average still useful?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

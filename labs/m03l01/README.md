@@ -1,20 +1,23 @@
-# SDLC: From Request To Running Software
+# m03l01 · SDLC: From Request To Running Software
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Collaboration and Continuous Integration  
-**Lesson**: `m03l01`
+Module 3: Collaboration and Continuous Integration · lesson 3.1 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m03l01)
 
-## Links
+**Goal:** You can map a software request through delivery and find the queues that make its lead time long.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m03l01)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-3-1)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m03l01-02](m03l01-02/) | Little's law and unfinished work | Graded |
+| [m03l01-03](m03l01-03/) | A value stream map exposes queues | Graded |
 
-- [`m03l01-02/`](m03l01-02/)
-- [`m03l01-03/`](m03l01-03/)
+## Check yourself
+
+- What does the software development life cycle include?
+- How does Little's law relate work in progress to lead time?
+- What did the value stream map reveal about the example pipeline?
+- Why is production part of the life cycle?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

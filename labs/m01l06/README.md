@@ -1,20 +1,24 @@
-# The Pitfalls Of Measurement
+# m01l06 · The Pitfalls Of Measurement
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Measurement And Outcomes: DORA  
-**Lesson**: `m01l06`
+Module 1: Measurement And Outcomes: DORA · lesson 1.6 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m01l06)
 
-## Links
+**Goal:** You can name DORA's own stated pitfalls, demonstrate how a delivery metric is gamed, and choose a way of reporting these numbers that resists gaming.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m01l06)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-1-6)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m01l06-02](m01l06-02/) | Gaming a metric, demonstrated | Graded |
+| [m01l06-03](m01l06-03/) | What the gaming script actually does | Read along |
 
-- [`m01l06-02/`](m01l06-02/)
-- [`m01l06-03/`](m01l06-03/)
+## Check yourself
+
+- Name three pitfalls DORA lists for its own metrics.
+- In the demonstration, which metrics improved when nothing changed, and why?
+- Why does publishing the definition of a deployment matter so much?
+- What is the defence against gaming a single metric?
+- What does DORA advise a team to do before building metric integrations?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

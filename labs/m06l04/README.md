@@ -1,19 +1,22 @@
-# Writing A Postmortem: The SRE Appendix
+# m06l04 · Writing A Postmortem: The SRE Appendix
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Incident Response and Postmortems  
-**Lesson**: `m06l04`
+Module 6: Incident Response and Postmortems · lesson 6.4 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m06l04)
 
-## Links
+**Goal:** You can check a postmortem against the SRE appendix structure and identify missing or blaming language before review.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m06l04)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-6-4)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l04-02](m06l04-02/) | Lint the example postmortem | Graded |
 
-- [`m06l04-02/`](m06l04-02/)
+## Check yourself
+
+- Which sections orient a reader first?
+- What can the linter prove and what cannot it prove?
+- Why invite people closest to the work?
+- When is a postmortem complete?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

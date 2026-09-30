@@ -1,19 +1,22 @@
-# The Incident Lifecycle
+# m06l02 · The Incident Lifecycle
 
-**Course**: [DevOps & Site Reliability Engineering](https://learnsome.tech/courses/devops-course)  
-**Module**: Incident Response and Postmortems  
-**Lesson**: `m06l02`
+Module 6: Incident Response and Postmortems · lesson 6.2 · Pro · [Open the lesson](https://learnsome.tech/learn/devops-course/m06l02)
 
-## Links
+**Goal:** You can distinguish detection, declaration, mitigation, outage end and incident closure when reviewing an event.
 
-- [Watch lesson](https://learnsome.tech/courses/devops-course/watch?lesson=m06l02)
-- [Handbook](https://learnsome.tech/courses/devops-course/book#lesson-6-2)
-- [Exercises](EXERCISES.md)
+## Labs
 
-## Artifact directories
+| Lab | What it is | Check |
+| --- | --- | --- |
+| [m06l02-02](m06l02-02/) | Read the incident clocks | Graded |
 
-- [`m06l02-02/`](m06l02-02/)
+## Check yourself
+
+- What is the difference between mitigation and outage end?
+- Why measure declaration separately from detection?
+- Why use a stability period?
+- What should external communication avoid?
 
 ---
 
-© LearnSome.tech · support@iwantto.learnsome.tech
+[Course README](../../README.md) · [DevOps & Site Reliability Engineering on LearnSome.tech](https://learnsome.tech/courses/devops-course)

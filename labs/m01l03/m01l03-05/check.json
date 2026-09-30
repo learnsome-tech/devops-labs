@@ -1,0 +1,17 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "Counting the two ratios",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "dora_metrics.py",
+  "files": [
+    "dora_metrics.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

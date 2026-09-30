@@ -1,0 +1,14 @@
+name: broken pipeline
+on:
+  push:
+
+jobs:
+  test:
+    steps:
+      - uses: actions/checkout
+      - run: python3 run_tests.py
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: ship it

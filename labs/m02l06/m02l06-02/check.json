@@ -1,0 +1,17 @@
+{
+  "lab": "m02l06-02",
+  "lesson": "m02l06",
+  "title": "An admin task, in the codebase",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "manage.py",
+  "files": [
+    "manage.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}
